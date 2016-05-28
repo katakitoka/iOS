@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //
 //  FriendsViewController.swift
 //  TwitSearch
@@ -6,6 +7,8 @@
 //  Copyright © 2016 Владислав Навроцкий. All rights reserved.
 //
 
+=======
+>>>>>>> dataSource
 import Foundation
 
 
@@ -17,8 +20,13 @@ class FriendsViewController: UIViewController, UITableViewDataSource, UITableVie
     
     let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
     
+<<<<<<< HEAD
     var userNameLabel: UILabel
     var userIDLabel: UILabel
+=======
+    var userNameButton: UIButton
+    var friendCountLabel: UILabel
+>>>>>>> dataSource
     var imageView: UIImageView
     var tableView: UITableView!
     
@@ -26,8 +34,13 @@ class FriendsViewController: UIViewController, UITableViewDataSource, UITableVie
         self.twit = twit
         
         self.friends = twit.friends.array as! [Friend]
+<<<<<<< HEAD
         self.userNameLabel = UILabel()
         self.userIDLabel = UILabel()
+=======
+        self.userNameButton = UIButton()
+        self.friendCountLabel = UILabel()
+>>>>>>> dataSource
         self.imageView = UIImageView()
         self.tableView = UITableView()
         
@@ -48,8 +61,13 @@ class FriendsViewController: UIViewController, UITableViewDataSource, UITableVie
         
         self.view.backgroundColor = UIColor.whiteColor()
         
+<<<<<<< HEAD
         self.view.addSubview(userNameLabel)
         self.view.addSubview(userIDLabel)
+=======
+        self.view.addSubview(userNameButton)
+        self.view.addSubview(friendCountLabel)
+>>>>>>> dataSource
         self.view.addSubview(imageView)
         
         //        UIImage
@@ -78,10 +96,17 @@ class FriendsViewController: UIViewController, UITableViewDataSource, UITableVie
         
         //        UIButton: userName
         
+<<<<<<< HEAD
         self.userNameLabel.translatesAutoresizingMaskIntoConstraints = false
         
         let userNameLabelTopConstrait = NSLayoutConstraint(
             item: self.userNameLabel,
+=======
+        self.userNameButton.translatesAutoresizingMaskIntoConstraints = false
+        
+        let userNameLabelTopConstrait = NSLayoutConstraint(
+            item: self.userNameButton,
+>>>>>>> dataSource
             attribute: .Top,
             relatedBy: .Equal,
             toItem: self.view,
@@ -90,7 +115,11 @@ class FriendsViewController: UIViewController, UITableViewDataSource, UITableVie
             constant: 0)
         
         let userNameLabelLeftConstrait = NSLayoutConstraint(
+<<<<<<< HEAD
             item: self.userNameLabel,
+=======
+            item: self.userNameButton,
+>>>>>>> dataSource
             attribute: .Left,
             relatedBy: .Equal,
             toItem: self.imageView,
@@ -103,6 +132,7 @@ class FriendsViewController: UIViewController, UITableViewDataSource, UITableVie
         
         //        UILabel: friendCount
         
+<<<<<<< HEAD
         self.userIDLabel.translatesAutoresizingMaskIntoConstraints = false
         
         let friendCountLabelTopConstrait = NSLayoutConstraint(
@@ -110,12 +140,25 @@ class FriendsViewController: UIViewController, UITableViewDataSource, UITableVie
             attribute: .Top,
             relatedBy: .Equal,
             toItem: self.userNameLabel,
+=======
+        self.friendCountLabel.translatesAutoresizingMaskIntoConstraints = false
+        
+        let friendCountLabelTopConstrait = NSLayoutConstraint(
+            item: self.friendCountLabel,
+            attribute: .Top,
+            relatedBy: .Equal,
+            toItem: self.userNameButton,
+>>>>>>> dataSource
             attribute: .Bottom,
             multiplier: 1.0,
             constant: 0)
         
         let friendCountLabelLeftConstrait = NSLayoutConstraint(
+<<<<<<< HEAD
             item: self.userIDLabel,
+=======
+            item: self.friendCountLabel,
+>>>>>>> dataSource
             attribute: .Left,
             relatedBy: .Equal,
             toItem: self.imageView,
@@ -128,12 +171,21 @@ class FriendsViewController: UIViewController, UITableViewDataSource, UITableVie
         
         //        add data
         
+<<<<<<< HEAD
         self.userNameLabel.text = self.twit.userName
         self.userIDLabel.text = "ID пользователя: " + twit.screenName!
+=======
+        self.userNameButton.setTitle(twit.userName, forState: .Normal)
+        self.friendCountLabel.text = "Количество друзей: " + twit.friendCount!
+>>>>>>> dataSource
         
         let imageURL = NSURL(string: twit.profileImageURL!)
         self.imageView.af_setImageWithURL(imageURL!)
         
+<<<<<<< HEAD
+=======
+        
+>>>>>>> dataSource
         //        UITableView
         guard let tableView = self.tableView else {
             print("Ошибка сосздания Table View")
@@ -145,7 +197,11 @@ class FriendsViewController: UIViewController, UITableViewDataSource, UITableVie
             item: tableView,
             attribute: .Top,
             relatedBy: .Equal,
+<<<<<<< HEAD
             toItem: self.imageView,
+=======
+            toItem: self.friendCountLabel,
+>>>>>>> dataSource
             attribute: .Bottom,
             multiplier: 1.0,
             constant: 0)

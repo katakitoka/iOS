@@ -161,7 +161,11 @@ class TwitViewController: UIViewController {
         
         userNameButton.setTitle(twit.userName, forState: .Normal)
         userNameButton.addTarget(self, action: "showFriends", forControlEvents: .TouchUpInside)
+<<<<<<< HEAD
         userNameButton.setTitleColor(UIColor.grayColor(), forState: .Normal)
+=======
+        userNameButton.setTitleColor(UIColor.blueColor(), forState: .Normal)
+>>>>>>> dataSource
         
         friendCountLabel.text = "Количество друзей: " + twit.friendCount!
         

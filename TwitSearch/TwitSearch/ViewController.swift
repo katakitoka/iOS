@@ -60,7 +60,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             toItem: self.view,
             attribute: .Top,
             multiplier: 1.0,
+<<<<<<< HEAD
             constant: 10)
+=======
+            constant: 50)
+>>>>>>> dataSource
         self.view.addConstraint(constraitRightButton)
         self.view.addConstraint(constraitTopButton)
         
@@ -83,7 +87,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             toItem: self.view,
             attribute: .Top,
             multiplier: 1.0,
+<<<<<<< HEAD
             constant: 60)
+=======
+            constant: 100)
+>>>>>>> dataSource
         
         let tableViewBottomConstrait = NSLayoutConstraint(
             item: tableView,
@@ -137,7 +145,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             toItem: self.view,
             attribute: .Top,
             multiplier: 1.0,
+<<<<<<< HEAD
             constant: 10)
+=======
+            constant: 50)
+>>>>>>> dataSource
         
         let textFieldBottomConstrait = NSLayoutConstraint(
             item: self.textField,
@@ -183,12 +195,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let cell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "cell")
         cell.textLabel?.text = twits[indexPath.row].text
         cell.detailTextLabel?.text = twits[indexPath.row].createdDate
+<<<<<<< HEAD
         if indexPath.row % 2 == 0 {
             cell.backgroundColor = UIColor(red: 117.0/255.0, green: 187.0/255.0, blue: 253.0/255.0, alpha: 0.3)
         }
         else {
             cell.backgroundColor = UIColor.whiteColor()
         }
+=======
+>>>>>>> dataSource
         return cell
     }
     

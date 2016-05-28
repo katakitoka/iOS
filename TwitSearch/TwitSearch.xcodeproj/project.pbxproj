@@ -24,6 +24,13 @@
 		3FB2E5C31CF86F5700C71101 /* twitter-storms-featured1-1024x768.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FB2E5C21CF86F5700C71101 /* twitter-storms-featured1-1024x768.jpg */; };
 		3FB2E5C51CF8795C00C71101 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB2E5C41CF8795C00C71101 /* FriendsViewController.swift */; };
 		3FC3CF7E1CF99116006C9F4A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3CF7D1CF99116006C9F4A /* MenuViewController.swift */; };
+<<<<<<< HEAD
+=======
+		3FC3CF801CF997BA006C9F4A /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3CF7F1CF997BA006C9F4A /* MenuItem.swift */; };
+		3FC3CF831CF99B8C006C9F4A /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3CF821CF99B8C006C9F4A /* MenuTableViewCell.swift */; };
+		3FC3CF851CF99F2A006C9F4A /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3CF841CF99F2A006C9F4A /* FeedViewController.swift */; };
+		3FC3CF871CF99F74006C9F4A /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3CF861CF99F74006C9F4A /* FavoritesViewController.swift */; };
+>>>>>>> dataSource
 		3FF24A361CF737E80008E0B6 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24A2E1CF737E80008E0B6 /* MMDrawerBarButtonItem.m */; };
 		3FF24A371CF737E80008E0B6 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24A301CF737E80008E0B6 /* MMDrawerController.m */; };
 		3FF24A381CF737E80008E0B6 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24A331CF737E80008E0B6 /* MMDrawerVisualState.m */; };
@@ -95,6 +102,13 @@
 		3FB2E5C21CF86F5700C71101 /* twitter-storms-featured1-1024x768.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "twitter-storms-featured1-1024x768.jpg"; sourceTree = SOURCE_ROOT; };
 		3FB2E5C41CF8795C00C71101 /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		3FC3CF7D1CF99116006C9F4A /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		3FC3CF7F1CF997BA006C9F4A /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		3FC3CF821CF99B8C006C9F4A /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		3FC3CF841CF99F2A006C9F4A /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		3FC3CF861CF99F74006C9F4A /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+>>>>>>> dataSource
 		3FF24A2D1CF737E80008E0B6 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerBarButtonItem.h; path = MMDrawerController/MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
 		3FF24A2E1CF737E80008E0B6 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerBarButtonItem.m; path = MMDrawerController/MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
 		3FF24A2F1CF737E80008E0B6 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerController.h; path = MMDrawerController/MMDrawerController.h; sourceTree = "<group>"; };
@@ -213,6 +227,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
+=======
+		3FC3CF811CF99870006C9F4A /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				3FC3CF7D1CF99116006C9F4A /* MenuViewController.swift */,
+				3FC3CF7F1CF997BA006C9F4A /* MenuItem.swift */,
+				3FC3CF821CF99B8C006C9F4A /* MenuTableViewCell.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+>>>>>>> dataSource
 		3FF24A2C1CF737CA0008E0B6 /* MMDrawerController */ = {
 			isa = PBXGroup;
 			children = (
@@ -429,6 +456,10 @@
 		F5966DE71C0C766300E8CBB2 /* TwitSearch */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+=======
+				3FC3CF811CF99870006C9F4A /* Menu */,
+>>>>>>> dataSource
 				CB04B7681C19ACAA00EDCF61 /* Libraries */,
 				CB04B7591C19AB5800EDCF61 /* Model */,
 				F5966DE81C0C766300E8CBB2 /* AppDelegate.swift */,
@@ -436,13 +467,21 @@
 				F5966DFE1C0C847800E8CBB2 /* ServerManager.swift */,
 				CB7A92071C158BFD00C04467 /* TwitViewController.swift */,
 				3FB2E5C41CF8795C00C71101 /* FriendsViewController.swift */,
+<<<<<<< HEAD
 				3FC3CF7D1CF99116006C9F4A /* MenuViewController.swift */,
+=======
+>>>>>>> dataSource
 				F5966DF21C0C766300E8CBB2 /* Assets.xcassets */,
 				F5966DF41C0C766300E8CBB2 /* LaunchScreen.storyboard */,
 				F5966DF71C0C766300E8CBB2 /* Info.plist */,
 				F5966DEF1C0C766300E8CBB2 /* TwitSearch.xcdatamodeld */,
 				CB04B7C41C19ACFB00EDCF61 /* TwitSearch-Bridging-Header.h */,
 				3FB2E5C21CF86F5700C71101 /* twitter-storms-featured1-1024x768.jpg */,
+<<<<<<< HEAD
+=======
+				3FC3CF841CF99F2A006C9F4A /* FeedViewController.swift */,
+				3FC3CF861CF99F74006C9F4A /* FavoritesViewController.swift */,
+>>>>>>> dataSource
 			);
 			path = TwitSearch;
 			sourceTree = "<group>";
@@ -545,6 +584,10 @@
 				CB04B7D81C19B36400EDCF61 /* MultipartFormData.swift in Sources */,
 				CB04B7AD1C19ACAA00EDCF61 /* NSObject+MagicalDataImport.m in Sources */,
 				CB04B7631C19AB5800EDCF61 /* _Twit.swift in Sources */,
+<<<<<<< HEAD
+=======
+				3FC3CF831CF99B8C006C9F4A /* MenuTableViewCell.swift in Sources */,
+>>>>>>> dataSource
 				CB04B7B71C19ACAA00EDCF61 /* NSManagedObjectContext+MagicalRecord.m in Sources */,
 				3FC3CF7E1CF99116006C9F4A /* MenuViewController.swift in Sources */,
 				CB04B7AC1C19ACAA00EDCF61 /* NSNumber+MagicalDataImport.m in Sources */,
@@ -558,6 +601,10 @@
 				3FF24A391CF737E80008E0B6 /* UIViewController+MMDrawerController.m in Sources */,
 				F5966DE91C0C766300E8CBB2 /* AppDelegate.swift in Sources */,
 				CB04B7AA1C19ACAA00EDCF61 /* NSAttributeDescription+MagicalDataImport.m in Sources */,
+<<<<<<< HEAD
+=======
+				3FC3CF801CF997BA006C9F4A /* MenuItem.swift in Sources */,
+>>>>>>> dataSource
 				CB6372861C1EA0A7005CE9FF /* ImageDownloader.swift in Sources */,
 				CB04B7B91C19ACAA00EDCF61 /* NSManagedObjectContext+MagicalThreading.m in Sources */,
 				CB04B7BE1C19ACAA00EDCF61 /* MagicalRecord+ErrorHandling.m in Sources */,
@@ -568,6 +615,10 @@
 				CB04B7E01C19B36400EDCF61 /* Upload.swift in Sources */,
 				CB04B7A91C19ACAA00EDCF61 /* MagicalImportFunctions.m in Sources */,
 				CB04B7B51C19ACAA00EDCF61 /* NSManagedObjectContext+MagicalChainSave.m in Sources */,
+<<<<<<< HEAD
+=======
+				3FC3CF851CF99F2A006C9F4A /* FeedViewController.swift in Sources */,
+>>>>>>> dataSource
 				3FF24A361CF737E80008E0B6 /* MMDrawerBarButtonItem.m in Sources */,
 				CB04B7D71C19B36400EDCF61 /* Manager.swift in Sources */,
 				CB7A92081C158BFD00C04467 /* TwitViewController.swift in Sources */,
@@ -578,6 +629,10 @@
 				CB04B7BD1C19ACAA00EDCF61 /* MagicalRecord+Actions.m in Sources */,
 				CB04B7DE1C19B36400EDCF61 /* ServerTrustPolicy.swift in Sources */,
 				CB04B7AF1C19ACAA00EDCF61 /* NSString+MagicalDataImport.m in Sources */,
+<<<<<<< HEAD
+=======
+				3FC3CF871CF99F74006C9F4A /* FavoritesViewController.swift in Sources */,
+>>>>>>> dataSource
 				CB04B7B81C19ACAA00EDCF61 /* NSManagedObjectContext+MagicalSaves.m in Sources */,
 				CB04B7DA1C19B36400EDCF61 /* Request.swift in Sources */,
 				CB04B7C21C19ACAA00EDCF61 /* MagicalRecord+ShorthandSupport.m in Sources */,
