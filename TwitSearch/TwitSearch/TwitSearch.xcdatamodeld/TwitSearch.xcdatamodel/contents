@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15B42" minimumToolsVersion="Automatic">
+    <entity name="Friend" representedClassName="Friend" syncable="YES">
+        <attribute name="friendID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="friendName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="twit" optional="YES" maxCount="1" deletionRule="Nullify" ordered="YES" destinationEntity="Twit" inverseName="friends" inverseEntity="Twit" syncable="YES"/>
+    </entity>
+    <entity name="Twit" representedClassName="Twit" syncable="YES">
+        <attribute name="createdDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="friendCount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profileImageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="screenName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="twitText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="friends" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Friend" inverseName="twit" inverseEntity="Friend" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Friend" positionX="-1107" positionY="-844" width="128" height="88"/>
+        <element name="Twit" positionX="-909" positionY="-891" width="128" height="163"/>
+    </elements>
+</model>
